@@ -1,9 +1,5 @@
 /* plusapi v1.0.5 | (c) 2021 by ofarukbicer */
 
-'use strict';
-
-const axios = require('axios');
-
 class PlusAPI {
 
   /**
