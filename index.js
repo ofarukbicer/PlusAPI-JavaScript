@@ -2,7 +2,7 @@
 
 const axios = require('axios');
 
-export class PlusAPI {
+class PlusAPI {
 
   /**
    * 
@@ -121,3 +121,5 @@ export class PlusAPI {
     return global.data;
   }
 }
+
+module.exports = PlusAPI
