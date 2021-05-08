@@ -1,14 +1,25 @@
 {
   "name": "plusapi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofarukbicer/PlusAPI-nodejs.git"
+  },
+  "keywords": [
+    "plusapi",
+    "nodejs"
+  ],
+  "author": "Ömer Faruk Biçer",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ofarukbicer/PlusAPI-nodejs/issues"
+  },
+  "homepage": "https://github.com/ofarukbicer/PlusAPI-nodejs",
   "dependencies": {
     "axios": "^0.21.1"
   }
