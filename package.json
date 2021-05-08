@@ -1,6 +1,6 @@
 {
   "name": "plusapi",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ofarukbicer/PlusAPI-nodejs.git"
+    "url": "https://github.com/ofarukbicer/PlusAPI-JavaScript.git"
   },
   "keywords": [
     "plusapi",
@@ -17,9 +17,9 @@
   "author": "Ömer Faruk Biçer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ofarukbicer/PlusAPI-nodejs/issues"
+    "url": "https://github.com/ofarukbicer/PlusAPI-JavaScript/issues"
   },
-  "homepage": "https://github.com/ofarukbicer/PlusAPI-nodejs",
+  "homepage": "https://github.com/ofarukbicer/PlusAPI-JavaScript",
   "dependencies": {
     "axios": "^0.21.1"
   }

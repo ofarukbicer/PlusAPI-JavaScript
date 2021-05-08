@@ -2,7 +2,7 @@
 
 ## 📥 Kurulum
 
-`git clone https://www.github.com/ofarukbicer/PlusAPI-nodejs`
+`git clone https://www.github.com/ofarukbicer/PlusAPI-JavaScript`
 
 ya da
 
