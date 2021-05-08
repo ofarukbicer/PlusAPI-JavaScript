@@ -2,7 +2,7 @@
 
 const axios = require('axios');
 
-class PlusAPI {
+export class PlusAPI {
 
   /**
    * 

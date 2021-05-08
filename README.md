@@ -4,6 +4,10 @@
 
 `git clone https://www.github.com/ofarukbicer/PlusAPI-nodejs`
 
+ya da
+
+`npm i plusapi`
+
 ## 📒 Kullanım
 
 Çok Yakında
