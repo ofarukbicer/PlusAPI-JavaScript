@@ -42,14 +42,11 @@ class PlusAPI {
    * @returns 
    */
   async istek_at(endpoint, sembol = null) {
-    await axios({
-      method: 'get',
-      url: "https://plusapi.org/api" + endpoint + "?token=" + this.token + (sembol != null ? "&sembol=" + encodeURIComponent(sembol) : ""),
-      responseType: 'json'
-    }).then(async (response) => {
-      global.data = await response.data;
-    })
-    return global.data;
+    await fetch(
+      "https://plusapi.org/api" + endpoint + "?token=" + this.token + (sembol != null ? "&sembol=" + encodeURIComponent(sembol) : "")
+    ).then(response => response.json())
+     .then(data => window.data = data);
+    return window.data;
   }
 
   /**
@@ -61,9 +58,9 @@ class PlusAPI {
    */
   async hisse_ver(sembol = "") {
     await this.istek_at("/hisse", sembol).then(async (data) => {
-      global.data = await data;
+      var data = await data;
     })
-    return global.data;
+    return data;
   }
 
   /**
@@ -74,9 +71,9 @@ class PlusAPI {
    */
   async hisse_sepet() {
     await this.istek_at("/hisse/sepet").then(async (data) => {
-      global.data = await data;
+      var data = await data;
     })
-    return global.data;
+    return data;
   }
 
   /**
@@ -88,9 +85,9 @@ class PlusAPI {
    */
   async kripto_ver(sembol = "") {
     await this.istek_at("/kripto", sembol).then(async (data) => {
-      global.data = await data;
+      var data = await data;
     })
-    return global.data;
+    return data;
   }
 
   /**
@@ -101,9 +98,9 @@ class PlusAPI {
    */
   async kripto_haber() {
     await this.istek_at("/kripto/haber").then(async (data) => {
-      global.data = await data;
+      var data = await data;
     })
-    return global.data;
+    return data;
   }
 
   /**
@@ -114,10 +111,8 @@ class PlusAPI {
    */
   async kripto_sepet() {
     await this.istek_at("/kripto/sepet").then(async (data) => {
-      global.data = await data;
+      var data = await data;
     })
-    return global.data;
+    return data;
   }
 }
-
-module.exports = PlusAPI
