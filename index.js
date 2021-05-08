@@ -14,11 +14,11 @@ class PlusAPI {
    *  
    * Methodlar
    * ---------
-   *  hisse_ver($sembol) -> İstenilen Sembolün Bilgilerini Çevirir
+   *  hisse_ver(sembol) -> İstenilen Sembolün Bilgilerini Çevirir
    * 
    *  hisse_sepet() -> BIST Top-10 Çevirir
    * 
-   *  kripto_ver($sembol) -> İstenilen Sembolün Bilgilerini Çevirir
+   *  kripto_ver(sembol) -> İstenilen Sembolün Bilgilerini Çevirir
    * 
    *  kripto_haber() -> Kriptolar Hakkında Güncel Haberleri Çevirir
    * 
